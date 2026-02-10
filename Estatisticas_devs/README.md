@@ -53,35 +53,42 @@ A correlação na estatística mede a relação entre duas variáveis, indicando
 ## 🇺🇸 English
 
 ### 1. What is Statistics?
-Statistics is divided into areas that allow transforming data into knowledge:
-* **Probability:** Studies the chances of events occurring, measuring uncertainty.
-* **Descriptive Statistics:** Collection, organization, and summary of data to describe characteristics.
-* **Statistical Inference:** Drawing conclusions about a population based on a representative sample.
+Statistics is divided into key areas that transform raw data into knowledge:
+* **Probability:** The study of the likelihood of events occurring and the measurement of uncertainty.
+* **Descriptive Statistics:** The collection, organization, and summarization of data to describe its core characteristics.
+* **Statistical Inference:** The process of drawing conclusions about a population based on a representative sample.
 
 ### 2. Population and Sample
-* **Population:** The total set of elements with a common characteristic.
+* **Population:** The complete set of elements sharing a common characteristic.
 * **Sample:** A subset of the population used when it is unfeasible to analyze the whole.
-* **Sampling:** The process of selecting a sample to ensure representativeness.
+* **Sampling:** The specific process of selecting a sample to ensure it accurately represents the population.
 
 ### 3. Types of Variables
 * **Quantitative (Numerical):**
     * **Continuous:** Values within a range (e.g., Height, Salary).
-    * **Discrete:** Integer values (e.g., Age, Number of employees).
+    * **Discrete:** Countable integer values (e.g., Age, Number of employees).
 * **Qualitative (Categorical):**
-    * **Nominal:** No order (e.g., Gender, Profession).
-    * **Ordinal:** With an order (e.g., Education Level, Age Group).
+    * **Nominal:** Categories without an inherent order (e.g., Gender, Profession).
+    * **Ordinal:** Categories with a logical order or ranking (e.g., Education Level, Age Group).
+
+
 
 ### 4. Central Limit Theorem
-It is one of the main theorems in statistics which states that when you take several random samples from a population and calculate the mean of each, regardless of the shape of the original distribution, these means approach a normal distribution (bell shape) as the sample size increases.
+The Central Limit Theorem (CLT) is a fundamental concept in statistics. It states that when multiple random samples are taken from a population, the distribution of their means will approach a **normal distribution** (bell curve) as the sample size increases, regardless of the original population's distribution shape.
 
-**Importance:** It allows making inferences about the population based on a sample. For example, if you know that the distribution of the sample mean is normal, you can use a normal distribution table to calculate the probability that the sample mean is greater or less than a certain value.
+**Importance:** It allows for population-level inferences based on a sample. Because the sample mean distribution is normal, you can use a normal distribution table to calculate the probability of a sample mean being greater or less than a specific value.
+
+
 
 ### 5. Statistical Measures
-* **Measures of Position:** Indicate the center of the data (Mean, Median, Mode).
-* **Measures of Dispersion:** Statistical tools that describe how much the data in a set varies in relation to its central mean.
-* **Measures of Shape:** Statistics that describe the configuration and outline of a dataset's distribution, allowing the identification of deviations from the standard normal curve.
+* **Measures of Position (Central Tendency):** Indicators of the data's center (Mean, Median, Mode).
+* **Measures of Dispersion:** Statistical tools that describe how much the data varies in relation to the mean (e.g., Variance, Standard Deviation).
+* **Measures of Shape:** Statistics that describe the configuration and outline of a dataset's distribution, identifying deviations (such as skewness) from the standard normal curve.
 
 ### 6. Correlation
-Correlation in statistics measures the relationship between two variables, indicating whether they have a positive linear association (increase together), negative (one increases while the other decreases), or no correlation.
+Correlation measures the relationship between two variables, indicating whether they have a:
+* **Positive correlation:** Both variables increase together.
+* **Negative correlation:** One variable increases while the other decreases.
+* **No correlation:** No linear relationship exists between the variables.
 
-**Importance for Machine Learning:** Lies in the ability to identify patterns and relationships between variables. Correlation helps select relevant features for models, improving precision and interpretability. It also allows adjusting models to predict with greater accuracy based on the relationships observed in the data.
+**Importance for Machine Learning:** Correlation is essential for identifying patterns and relationships between variables. It assists in **feature selection**, helping to choose the most relevant variables for a model to improve precision and interpretability. It also allows for model adjustments to predict outcomes with greater accuracy based on observed data relationships.
